@@ -63,7 +63,7 @@ public class DefaultCoreDoGlobalCommitInterceptor implements InstanceMethodsArou
         if (rpcMessage.getBody() instanceof AbstractMessage) {
             ContextManager.stopSpan();
         }
-        return ret;
+        return ret;      
     }
 
     @Override
